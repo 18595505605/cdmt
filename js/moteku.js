@@ -1,0 +1,121 @@
+$(".aaq>ul>li").hover(function(){
+	$(this).children("a").css("color","#C89348");
+},function(){
+	$(this).children("a").css("color","#AEAEAE");
+})
+$(".ll").hover(function(){
+	$(this).children("a").css("color","#C89348");
+},function(){
+	$(this).children("a").css("color","#C89348");
+})
+$(window).scroll(function(){
+	var hei=$(window).scrollTop();
+	if(hei>150){
+		$(".q").css("background","white");
+		$(".q").css("border","1px solid white");
+		$(".log>.tu-a").hide();
+		$(".log>.tu-b").show();
+		$(".san").css("background","white");
+	}
+	if(hei<150){
+		$(".q").css("background","black");
+		$(".q").css("border","1px solid black");
+		$(".log>.tu-a").show();
+		$(".log>.tu-b").hide();
+		$(".san").css("background","black");
+	}
+})
+$(".l1>li").hover(function(){
+	$(this).css("color","white");
+},function(){
+	$(this).css("color","");
+})
+$(".tu0>.tu1").hover(function(){
+	$(".tu0>.tu1>div").stop().slideDown(300);
+	$(this).css("opacity","0.8");
+},function(){
+	$(".tu0>.tu1>div").stop().slideUp(300);
+	$(this).css("opacity","1");
+})
+$(".tu0>.tu2").hover(function(){
+	$(".tu0>.tu2>div").stop().slideDown(300);
+	$(this).css("opacity","0.8");
+},function(){
+	$(".tu0>.tu2>div").stop().slideUp(300);
+	$(this).css("opacity","1");
+})
+$(".tu0>.tu3").hover(function(){
+	$(".tu0>.tu3>div").stop().slideDown(300);
+	$(this).css("opacity","0.8");
+},function(){
+	$(".tu0>.tu3>div").stop().slideUp(300);
+	$(this).css("opacity","1");
+})
+$(".tu0>.tu4").hover(function(){
+	$(".tu0>.tu4>div").stop().slideDown(300);
+	$(this).css("opacity","0.8");
+},function(){
+	$(".tu0>.tu4>div").stop().slideUp(300);
+	$(this).css("opacity","1");
+})
+$(".tu0>.tu5").hover(function(){
+	$(".tu0>.tu5>div").stop().slideDown(300);
+	$(this).css("opacity","0.8");
+},function(){
+	$(".tu0>.tu5>div").stop().slideUp(300);
+	$(this).css("opacity","1");
+})
+$(".tu0>.tu6").hover(function(){
+	$(".tu0>.tu6>div").stop().slideDown(300);
+	$(this).css("opacity","0.8");
+},function(){
+	$(".tu0>.tu6>div").stop().slideUp(300);
+	$(this).css("opacity","1");
+})
+$(".tu0>.tu7").hover(function(){
+	$(".tu0>.tu7>div").stop().slideDown(300);
+	$(this).css("opacity","0.8");
+},function(){
+	$(".tu0>.tu7>div").stop().slideUp(300);
+	$(this).css("opacity","1");
+})
+$(".tu0>.tu8").hover(function(){
+	$(".tu0>.tu8>div").stop().slideDown(300);
+	$(this).css("opacity","0.8");
+},function(){
+	$(".tu0>.tu8>div").stop().slideUp(300);
+	$(this).css("opacity","1");
+})
+$(".tu0>.tu9").hover(function(){
+	$(".tu0>.tu9>div").stop().slideDown(300);
+	$(this).css("opacity","0.8");
+},function(){
+	$(".tu0>.tu9>div").stop().slideUp(300);
+	$(this).css("opacity","1");
+})
+$(".tu0>.tu10").hover(function(){
+	$(".tu0>.tu10>div").stop().slideDown(300);
+	$(this).css("opacity","0.8");
+},function(){
+	$(".tu0>.tu10>div").stop().slideUp(300);
+	$(this).css("opacity","1");
+})
+$(".tu0>.tu11").hover(function(){
+	$(".tu0>.tu11>div").stop().slideDown(300);
+	$(this).css("opacity","0.8");
+},function(){
+	$(".tu0>.tu11>div").stop().slideUp(300);
+	$(this).css("opacity","1");
+})
+$(".tu0>.tu12").hover(function(){
+	$(".tu0>.tu12>div").stop().slideDown(300);
+	$(this).css("opacity","0.8");
+},function(){
+	$(".tu0>.tu12>div").stop().slideUp(300);
+	$(this).css("opacity","1");
+})
+$(".log").hover(function(){
+	$(".log>img").css("opacity","0.5");
+},function(){
+	$(".log>img").css("opacity","1");
+})

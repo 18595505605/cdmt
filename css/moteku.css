@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@media(max-width: 768px){
+	.dd>div{
+		text-align: center;
+	}
+}
+@media(max-width: 992px){
+	.dd>div{
+		text-align: center;
+	}
+}
+.aa>ul>li>a {
+	color: #AEAEAE;
+}
+.q {
+	width: 100%;
+	background: black;
+	position: fixed;
+	z-index: 99;
+}
+.a7{
+	font-size: 13px;
+	color: grey;
+}
+.log>.tu-b{
+	display: none;
+}
+.l1>li{
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+.tu0>p{
+	color: grey;
+	font-size: 12px;
+}
+.di>p>a{
+	color: grey;
+}
+.di>p>a:hover{
+	color: darkred;
+	text-decoration: none;
+}

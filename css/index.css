@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@media(max-width: 768px){
+	.dd>div{
+		text-align: center;
+	}
+}
+@media(max-width: 992px){
+	.dd>div{
+		text-align: center;
+	}
+}
+.aa>ul>li>a {
+	color: #AEAEAE;
+}
+.q {
+	width: 100%;
+	background: black;
+	position: fixed;
+	z-index: 99;
+}
+.log>.tu-b{
+	display: none;
+}
+.lunbo>div>img{
+	width: 100%;
+}
+marquee:hover{
+	color:#C3924D;
+	cursor: pointer;
+}
+.a3>img:hover{
+	border:2px solid palevioletred;
+}
+.a4>img:hover{
+	border:2px solid palevioletred;
+}
+.a5>img:hover{
+	border:2px solid palevioletred;
+}
+.a51>img:hover{
+	border:2px solid palevioletred;
+}
+.a52:hover{
+	border:2px solid palevioletred;
+}
+.a6{
+	font-size: 14px;
+	cursor: pointer;
+}
+.a7{
+	font-size: 13px;
+	color: grey;
+}
+.a7>span{
+	color: #C3924D;
+}
+.a7>span:hover{
+	color: black;
+	cursor: pointer;
+}
+.media-1:hover{
+	box-shadow:darkgray  0px 0px 10px ;
+}
+.span-3{
+	padding: 10px 15px;
+	background: gainsboro;
+	color: #979797;
+	display: inline-block;
+	margin-top: 10px;
+}
+.span-3:hover{
+	background: black;
+	color: white;
+	cursor: pointer;
+}
+.lg>div{
+	margin-top: 10px;
+}
+.lg>div:hover{
+	box-shadow:darkgray  0px 0px 10px ;
+}
+.l1>li{
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+.di>p>a{
+	color: grey;
+}
+.di>p>a:hover{
+	color: darkred;
+	text-decoration: none;
+}
